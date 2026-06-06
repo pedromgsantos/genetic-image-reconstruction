@@ -13,7 +13,12 @@ RGBA triangles on a 300×400 canvas. A genetic algorithm evolves the triangle po
 and colors over successive generations to minimize the visual difference between the composed
 image and the original.
 
-![](https://github.com/pedromgsantos/genetic-image-reconstruction/blob/main/data/girl_pearl_earing.png)
+<p align="center">
+  <img src="https://github.com/pedromgsantos/genetic-image-reconstruction/blob/main/data/girl_pearl_earing.png" width="200" alt="Target image"/>
+  <img src="https://github.com/pedromgsantos/genetic-image-reconstruction/blob/main/results/tuned_rmse/timelapse.gif" width="200" alt="Evolutionary reconstruction timelapse"/>
+  <br/>
+  <sub>Target image (left) — Evolutionary reconstruction timelapse, RMSE (right)</sub>
+</p>
 
 The project explores four fitness metrics — pixel error, perceptual color distance, and
 deep visual embeddings — and uses random search over operator combinations to identify the
