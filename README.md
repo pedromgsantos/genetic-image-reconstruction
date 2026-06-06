@@ -13,6 +13,8 @@ RGBA triangles on a 300×400 canvas. A genetic algorithm evolves the triangle po
 and colors over successive generations to minimize the visual difference between the composed
 image and the original.
 
+![](https://github.com/pedromgsantos/genetic-image-reconstruction/blob/main/data/girl_pearl_earing.png)
+
 The project explores four fitness metrics — pixel error, perceptual color distance, and
 deep visual embeddings — and uses random search over operator combinations to identify the
 best-performing configuration for each metric.
