@@ -1,4 +1,4 @@
-# Galapagos — Triangle Genetic Algorithm
+# Galapagos - Triangle Genetic Algorithm
 
 Project for the Computational Intelligence for Optimization course, Master's in Data Science and Advanced Analytics, NOVA IMS.
 
@@ -15,7 +15,7 @@ image and the original.
 
 <p align="center">
   <img src="https://github.com/pedromgsantos/genetic-image-reconstruction/blob/main/data/girl_pearl_earing.png" width="200" alt="Target image"/>
-  <img src="https://github.com/pedromgsantos/genetic-image-reconstruction/blob/main/results/tuned_rmse/timelapse.gif" width="200" alt="Evolutionary reconstruction timelapse"/>
+  <img src="https://github.com/pedromgsantos/genetic-image-reconstruction/blob/main/results/tuned_rmse/timelapse-accelerated.gif" width="200" alt="Evolutionary reconstruction timelapse"/>
   <br/>
   <sub>Target image (left) — Evolutionary reconstruction timelapse, RMSE (right)</sub>
 </p>
